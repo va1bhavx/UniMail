@@ -32,8 +32,7 @@
       },
 
       "style": {
-        "useConst": "error",
-        "noVar": "error"
+        "useConst": "error"
       },
 
       "performance": {
