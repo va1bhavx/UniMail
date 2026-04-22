@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running typecheck..."
+pnpm typecheck || exit 1
+
+echo "Running build..."
+pnpm build || exit 1
