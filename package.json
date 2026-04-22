@@ -1,5 +1,6 @@
 {
-  "name": "email-sync",
+  "name": "UniMail",
+  "description": "All your inboxes. One calm place.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +11,24 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@prisma/client": "^7.7.0",
+    "@tanstack/react-query": "^5.99.2",
+    "axios": "^1.15.2",
+    "bcrypt": "^6.0.0",
+    "clsx": "^2.1.1",
+    "imapflow": "^1.3.2",
+    "lucide-react": "^1.8.0",
+    "mailparser": "^3.9.8",
     "next": "16.2.4",
+    "next-auth": "^4.24.14",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.5",
+    "pino": "^10.3.1",
+    "prisma": "^7.7.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
